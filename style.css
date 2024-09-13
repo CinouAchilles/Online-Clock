@@ -13,6 +13,7 @@ body{
     background-size: cover;
     background: radial-gradient(black, transparent);
     background: radial-gradient(#f84a4a, black);
+    height:100vh;
 
 }
 
@@ -30,8 +31,8 @@ body{
     text-align: center;
     width: 100%;
     font-size: 8em;
-    background-color: hsla(0, 0%, 100%,0.1);
-    backdrop-filter: blur(100px);
+    /*background-color: hsla(0, 0%, 100%,0.1);*/
+    backdrop-filter: blur(50px);
     transition: all ease-in-out 0.5s;
 }
 
