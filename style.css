@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(xz-utils.jpg);
+    background-position: center;
+    background-size: cover;
+    background: radial-gradient(black, transparent);
+    background: radial-gradient(#f84a4a, black);
+
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock{
+    font-family: monospace;
+    margin: auto;
+    color: azure;
+    text-align: center;
+    width: 100%;
+    font-size: 8em;
+    background-color: hsla(0, 0%, 100%,0.1);
+    backdrop-filter: blur(100px);
+    transition: all ease-in-out 0.5s;
+}
+
+@media (max-width: 730px){
+    .clock{
+        font-size: 6em;
+    }
+}
+@media (max-width: 540px){
+    .clock{
+        font-size: 5em;
+    }
+}
+@media (max-width: 450px){
+    .clock{
+        font-size: 4em;
+    }
+}
+@media (max-width: 465px){
+    .clock{
+        font-size: 3.5em;
+    }
+}
